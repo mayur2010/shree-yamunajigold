@@ -1,0 +1,15 @@
+[nt_drop_split1]
+
+{%- for tag in current_tags -%}
+   {%- render 'menu_dropdown',handle_menu:tag -%}
+   {%- unless forloop.last -%}[nt_drop_split2]{%- endunless -%}
+{%- endfor -%}
+
+[nt_drop_split1]
+
+
+{%- schema -%}
+{
+   "name": "Dropdown menu"
+}
+{% endschema %}

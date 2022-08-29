@@ -1,0 +1,549 @@
+/*
+Theme Name: gecko 
+Author: The4Studio
+Author URI: https://the4.co/
+Version: 1.0
+/* -------------------------------------------
+[Table of contents]
+1. SWATCH COLORS CSS
+2. TOOLTIPS
+3. ANIMATE CSS
+4. MAGNIFIC POPUP CSS
+
+2. HEADER
+  3.1 HEADER TRANSPARENT
+  3.2 ACTION ICO
+  3.3 SEARCH FORM
+  3.4 MY ACCOUNT
+  3.5 MAIN NAVIGATION
+  3.6 MOBILE MENU
+  3.7 HEADER LEFT
+------------------------------------------- */
+
+/* ==========================================================================
+   1. SWATCH COLORS CSS
+   ========================================================================== */
+.t4sfrm-remove-vsoldout .t4s-soldout,
+.t4sp-remove-unavail-true .t4s-unavailable {
+    display: none !important;
+}
+.is-t4sOptioNname .t4s-soldout {
+    border: dashed 0.5px rgb(119 119 119 / 20%);
+}
+.is-t4sOptioNname .t4s-soldout>span {
+    text-decoration: line-through;
+    opacity: .5;
+}
+.t4s-style-color .t4s-swatch.is-t4scolor .t4s-swatch-item {
+    position: relative;
+    overflow: hidden;
+}
+.t4s-style-color .is-t4scolor .t4s-soldout {
+    border: dashed 0.5px rgb(119 119 119 / 20%);
+}
+.t4s-style-color .is-t4scolor .t4s-soldout:before, .t4s-style-color .is-t4scolor .t4s-soldout:after {
+    content: " ";
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: 50%;
+    width: 100%;
+    height: .5px;
+    display: inline-block;
+    background-color: #222;
+     z-index: 2;
+    transform: rotate(45deg);
+    transition: background-color .2s ease-in-out,transform .2s ease-in-out,width .2s ease-in-out; 
+}
+.t4s-style-color .is-t4scolor .t4s-soldout:after {
+    transform: rotate(-45deg);
+}
+/* Swatch end */
+
+/* ==========================================================================
+   2. TOOLTIPS
+   ========================================================================== */
+.t4s-bstooltip .arrow {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent
+}
+
+.t4s-bstooltip:not(.t4scss-tooltip) {
+    pointer-events: none
+}
+
+.tooltip-inner {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 8px 10px;
+    max-width: 200px;
+    background-color: rgba(0,0,0,.9);
+    color: #fff;
+    word-break: break-word;
+    border-radius: 0
+}
+
+.t4s-bstooltip.bs-tooltip-top {
+    margin-top: -3px;
+    padding: 5px 0
+}
+
+.t4s-bstooltip.bs-tooltip-top .arrow {
+    bottom: 0;
+    left: 50%;
+    border-width: 5px 5px 0;
+    border-top-color: rgba(0,0,0,.9)
+}
+
+.t4s-bstooltip.bs-tooltip-bottom {
+    margin-bottom: -3px;
+    padding: 5px 0
+}
+
+.t4s-bstooltip.bs-tooltip-bottom .arrow {
+    top: 0;
+    left: 50%;
+    border-width: 0 5px 5px;
+    border-bottom-color: rgba(0,0,0,.9)
+}
+
+.t4s-bstooltip.bs-tooltip-left {
+    margin-left: -3px
+}
+
+.t4s-bstooltip.bs-tooltip-left .arrow {
+    top: 50%;
+    right: 0;
+    border-width: 5px 0 5px 5px;
+    border-left-color: rgba(0,0,0,.9)
+}
+
+.t4s-bstooltip.bs-tooltip-right {
+    margin-left: 3px
+}
+
+.t4s-bstooltip.bs-tooltip-right .arrow {
+    top: 50%;
+    left: 0;
+    border-width: 5px 5px 5px 0;
+    border-right-color: rgba(0,0,0,.9)
+}
+/* Tooltip end */
+
+/* ==========================================================================
+   3. ANIMATE CSS
+   ========================================================================== */
+    @keyframes t4s-ani-rotate {
+        100% {
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes t4s-ani-fadeIn {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes t4s-ani-fadeOut {
+        from {
+            opacity: 1
+        }
+
+        to {
+            opacity: 0
+        }
+    }
+
+    @keyframes t4s-ani-fadeInBottomShort {
+        from {
+            transform: translate3d(0, 20px, 0)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes t4s-ani-ShakePrev {
+        25% {
+            transform: translate3d(0px, 0, 0)
+        }
+
+        50% {
+            transform: translate3d(3px, 0, 0)
+        }
+
+        75% {
+            transform: translate3d(-3px, 0, 0)
+        }
+    }
+
+    @keyframes t4s-ani-ShakeNext {
+        25% {
+            transform: translate3d(0px, 0, 0)
+        }
+
+        50% {
+            transform: translate3d(-3px, 0, 0)
+        }
+
+        75% {
+            transform: translate3d(3px, 0, 0)
+        }
+    }
+
+    @keyframes t4s-ani-FadeInLoader {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: .8
+        }
+    }
+
+    @keyframes t4s-ani-SlideFromTop {
+        from {
+            transform: translateY(-150px)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes t4s-ani-SlideFromBottom {
+        from {
+            transform: translateY(150px)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes t4s-ani-SlideFromLeft {
+        from {
+            transform: translateX(-150px)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes t4s-ani-SlideFromRight {
+        from {
+            transform: translateX(150px)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes t4s-ani-RightFlipY {
+        from {
+            transform: translateX(100px) rotate3d(0, 1, 0, 90deg) scale(0.6)
+        }
+
+        to {
+            transform: perspective(1000px) translateY(0px) rotate3d(0, 1, 0, 0deg) scale(1)
+        }
+    }
+
+    @keyframes t4s-ani-LeftFlipY {
+        from {
+            transform: translateX(-100px) rotate3d(0, 1, 0, -90deg) scale(0.6)
+        }
+
+        to {
+            transform: perspective(1000px) translateY(0px) rotate3d(0, 1, 0, 0deg) scale(1)
+        }
+    }
+
+    @keyframes t4s-ani-TopFlipX {
+        from {
+            transform: translateY(-100px) rotate3d(1, 0, 0, 90deg) scale(0.6)
+        }
+
+        to {
+            transform: perspective(1000px) translateY(0) rotate3d(1, 0, 0, 0deg) scale(1)
+        }
+    }
+
+    @keyframes t4s-ani-BottomFlipX {
+        from {
+            transform: translateY(100px) rotate3d(1, 0, 0, 90deg) scale(0.6)
+        }
+
+        to {
+            transform: perspective(1000px) translateY(0) rotate3d(1, 0, 0, 0deg) scale(1)
+        }
+    }
+
+    @keyframes t4s-ani-ZoomIn {
+        from {
+            transform: scale(0.7)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+    @keyframes t4s-ani-RotateZ {
+        from {
+            transform: matrix3d(0.70592, 0.02465, 0.37557, -0.00062, -0.06052, 0.79532, 0.06156, -0.0001, -0.46435, -0.10342, 0.87958, -0.00146, -21.42566, 4.13698, 4.81749, 0.99197085)
+        }
+
+        to {
+            transform: none
+        }
+    }
+
+/* ==========================================================================
+   4. MAGNIFIC POPUP CSS
+   ========================================================================== */
+    .mfp-bg,.t4sp-theme .mfp-bg {
+        position: fixed;
+        z-index: 1102 !important;
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.7)
+    }
+
+    .global-color-scheme-light .mfp-bg {
+        background-color: rgba(0,0,0,0.8)
+    }
+
+    .mfp-wrap,.t4sp-theme .mfp-wrap {
+        position: fixed;
+        z-index: 1103 !important;
+        outline: none !important;
+        -webkit-backface-visibility: hidden
+    }
+
+    .mfp-container {
+        position: absolute;
+        padding: 0 8px;
+        text-align: center
+    }
+
+    .mfp-container:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle
+    }
+
+    .mfp-content {
+        position: relative;
+        z-index: 1105;
+        display: inline-block;
+        margin: 0 auto;
+        vertical-align: middle;
+        text-align: left
+    }
+
+    .mfp-inline-holder .mfp-content {
+        width: 100%;
+        cursor: auto
+    }
+
+    .mfp-close,.mfp-arrow,.mfp-preloader,.mfp-counter {
+        user-select: none
+    }
+
+    .mfp-preloader {
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        left: 8px;
+        z-index: 1104;
+        margin-top: -.8em;
+        width: auto;
+        color: #CCC;
+        text-align: center
+    }
+
+    .mfp-preloader a {
+        color: #CCC
+    }
+
+    .mfp-preloader a:hover {
+        color: #FFF
+    }
+
+    .mfp-s-ready .mfp-preloader,.mfp-s-error .mfp-content {
+        display: none
+    }
+
+    .mfp-iframe-holder {
+        padding-top: 40px;
+        padding-bottom: 40px
+    }
+
+    .mfp-iframe-holder .mfp-content {
+        max-width: 900px;
+        width: 100%;
+        line-height: 0
+    }
+
+    .mfp-iframe-scaler {
+        overflow: hidden;
+        padding-top: 56.25%;
+        width: 100%;
+        height: 0
+    }
+
+    .mfp-iframe-scaler iframe {
+        position: absolute;
+        display: block;
+        background: #000
+    }
+
+    .t4s-mfp-popup {
+        margin: 25px auto;
+        padding: 30px;
+        width: 100%;
+        background-color: #FFF
+    }
+
+    [class*="color-scheme-light"] .t4s-mfp-popup {
+        background-color: #101010
+    }
+
+    .mfp-move-horizontal .mfp-with-anim {
+        opacity: 0;
+        transition: transform .3s ease, opacity .3s ease;
+        transform: translateX(-100px)
+    }
+
+    .mfp-move-horizontal .mfp-with-anim .summary-inner {
+        opacity: 0;
+        transition: transform .3s ease, opacity .3s ease;
+        transform: translateY(30px)
+    }
+
+    .mfp-move-horizontal.mfp-bg {
+        opacity: 0;
+        transition: opacity .25s ease, visibility 0s ease .25s
+    }
+
+    .mfp-move-horizontal.mfp-ready .mfp-with-anim,.mfp-move-horizontal.mfp-ready .mfp-with-anim .summary-inner {
+        opacity: 1;
+        transform: none
+    }
+
+    .mfp-move-horizontal.mfp-ready.mfp-bg {
+        opacity: 1;
+        transition: opacity .25s ease, visibility 0s ease
+    }
+
+    .mfp-move-horizontal.mfp-removing .mfp-with-anim {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    .mfp-move-horizontal.mfp-removing.mfp-bg {
+        opacity: 0
+    }
+
+    .mfp-move-horizontal.mfp-removing .mfp-close {
+        display: none
+    }
+
+    .mfp-bg,.mfp-wrap,.mfp-container,.mfp-iframe-scaler iframe {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+
+    button.mfp-close {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1104;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        background: none;
+        color: #FFF;
+        text-align: center;
+        font-weight: 400;
+        font-size: 0;
+        opacity: 1;
+        cursor: pointer;
+        transition: all .25s ease;
+        touch-action: manipulation;
+        opacity: 0;
+        transition: all .25s ease, opacity 0s ease 0s
+    }
+    button.mfp-close .t4smfp-icon-close {
+        width: 16px;
+        height: 16px;
+        stroke-width: 1.5px;
+        display: inline-block;
+        pointer-events: none;
+    }
+    button.mfp-close:before,button.mfp-close:after {
+        display: none !important;
+    }
+
+    button.mfp-close:hover {
+        background-color: rgba(0,0,0,0.3);
+        box-shadow: none;
+        color: #FFF;
+        opacity: 1
+    }
+
+    .mfp-ready button.mfp-close {
+        opacity: 1;
+        transition: all .25s ease, opacity .3s ease .35s
+    }
+    .t4s-loading-spin {
+        position: absolute;
+        top: 50%;
+        margin-top: -9px;
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border: 1px solid rgba(255,255,255,0.3);
+        border-left-color: #fff;
+        border-radius: 50%;
+        vertical-align: middle;
+        animation: t4s-ani-rotate 450ms infinite linear;
+    }
+    .t4s-spin-centered {
+        left: 50%;
+        margin-left: -9px;
+    }
+    .t4s-spin-medium {
+        border-width: 2px;
+        width: 35px;
+        height: 35px;
+        margin-top: -17.5px;
+    }
+    .t4s-spin-centered.t4s-spin-medium {
+        margin-left: -17.5px;
+    }
+
+/* ==========================================================================
+   5. 
+   ========================================================================== */
