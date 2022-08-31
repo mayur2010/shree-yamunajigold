@@ -1,22 +1,6 @@
 {{ 'promise-section.css' | asset_url | stylesheet_tag }}
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-   
-      console.log("ready");
-      $('#incards').hover(
-        console.log("hover"),
-        function(){ 
-          $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
-        },
-        function() {
-          $(this).children(".hover-content").removeClass("active"); //Remove an active class to the anchor
-        }
-     )
-    
-
-          </script>
-
 {% for block in section.blocks %}  
 {% case block.type %}
 
@@ -50,6 +34,22 @@
 {% endcase %} 
 {% endfor %}
  
+<script type="text/javascript">
+  $(document).ready(function()
+    {
+      console.log("ready");
+      $('.incards').hover(
+        function(){ 
+          console.log("hover");
+          $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
+        },
+        function() {
+          $(this).children(".hover-content").removeClass("active"); //Remove an active class to the anchor
+        }
+     )
+   });
+          </script>
+          
 {% schema %}
 {
 "name": "Promise",
