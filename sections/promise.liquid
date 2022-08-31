@@ -48,34 +48,208 @@
 }
 ],
 "blocks": [
-    {
-      "type": "link",
-      "name": "Link",
-      "settings": [
-        {
-          "id": "linkurl",
-          "type": "url",
-          "label": "URL link"
-        },
-        {
-          "id": "linktext",
-          "type": "text",
-          "label": "Link text"
-        }
-      ]
-    },
-    {
-      "type": "custom-text",
-      "name": "Custom Text",
-      "settings": [
-        {
-          "id": "custom-text-field",
-          "type": "textarea",
-          "label": "Text"
-        }
-      ]
-    }
-  ]
+      {
+        "type": "shipping",
+        "name": "Shipping",
+        "settings": [
+          {
+            "type": "header",
+            "content": "+ Icon options"
+          },
+          {
+            "type": "select",
+            "id": "icon_themes",
+            "label": "Select icon", 
+            "info": "Only used for source  theme icon",
+            "default": "car",
+            "options": [
+              {
+                "value": "none",
+                "label": "None"
+              },
+              {
+                "value": "car",
+                "label": "Car"
+              },
+              {
+                "value": "diamond",
+                "label": "Diamond"
+              },
+              {
+                "value": "door-lock",
+                "label": "Door lock"
+              },
+              {
+                "value": "gym",
+                "label": "Gym"
+              },
+              {
+                "value": "hammer",
+                "label": "Hammer"
+              },
+              {
+                "value": "headphones",
+                "label": "Headphones"
+              },
+              {
+                "value": "helm",
+                "label": "Helm"
+              },
+              {
+                "value": "hourglass",
+                "label": "Hourglass"
+              },
+              {
+                "value": "map",
+                "label": "Map"
+              },
+              {
+                "value": "piggy",
+                "label": "Piggy"
+              },
+              {
+                "value": "refesh",
+                "label": "Refesh"
+              },
+              {
+                "value": "rocket",
+                "label": "Rocket"
+              },
+              {
+                "value": "shield",
+                "label": "Shield"
+              },
+              {
+                "value": "smile",
+                "label": "Smile"
+              },
+              {
+                "value": "cloud_upload",
+                "label": "Cloud upload"
+              },
+              {
+                "value": "cash",
+                "label": "Cash"
+              },
+              {
+                "value": "way",
+                "label": "Way"
+              },
+              {
+                "value": "wristwatch",
+                "label": "Wristwatch"
+              },
+              {
+                "value": "world",
+                "label": "World"
+              },
+              {
+                "value": "scissors",
+                "label": "Scissors"
+              },
+              {
+                "value": "wallet",
+                "label": "Wallet"
+              },
+              {
+                "value": "unlock",
+                "label": "Unlock"
+              },
+              {
+                "value": "umbrella",
+                "label": "Umbrella"
+              },
+              {
+                "value": "shuffle",
+                "label": "Shuffle"
+              },
+              {
+                "value": "repeat",
+                "label": "Repeat"
+              },
+              {
+                "value": "refesh-2",
+                "label": "Refesh 2"
+              },
+              {
+                "value": "medal",
+                "label": "Medal"
+              },
+              {
+                "value": "portfolio",
+                "label": "Portfolio"
+              },
+              {
+                "value": "like",
+                "label": "Like"
+              },
+              {
+                "value": "plance",
+                "label": "Plance"
+              },
+              {
+                "value": "map-maker",
+                "label": "Map maker"
+              },
+              {
+                "value": "help",
+                "label": "Help"
+              },
+              {
+                "value": "gift",
+                "label": "Gift"
+              },
+              {
+                "value": "cart",
+                "label": "Cart"
+              },
+              {
+                "value": "box",
+                "label": "Box"
+              },
+              {
+                "value": "back",
+                "label": "Back"
+              }
+            ]
+          },
+          {
+             "type": "image_picker",
+             "id": "image_icon",
+             "label": "Choose image",
+             "info": "Only used for source image"
+          },
+          
+          {
+            "type": "text",
+            "id": "icon",
+            "label": "Enter icon",
+            "info": "Only used for source line awesome icon",
+            "default": "headset"
+          },
+          {
+            "type": "paragraph",
+            "content": "[LineAwesome](https://kalles.the4.co/font-lineawesome/)"
+          },
+          {
+            "type": "header",
+            "content": "+Text options"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Add a heading"
+          },
+          {
+             "type": "richtext",
+             "id": "text",
+             "label": "Text",
+             "default": "<p>Use this text to describe.<\/p>"
+           }
+        ]
+      }
+    ],
 }
 {% endschema %}
 {% stylesheet %}
