@@ -29,7 +29,7 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     {%- if settings.font_source == '1' and settings.fnt_fm_sp1.system? == false or settings.fnt_fm_sp2.system? == false or settings.fnt_fm_sp3.system? == false -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endif -%}
-
+    
     {%- capture seo_title -%}
       {%- if template == 'search' and search.performed == true -%}{{ 'search.general.heading' | t: count: search.results_count }}: {{ 'search.results_with_count_and_term' | t: terms: search.terms, count: search.results_count }}{%- elsif template == 'search.wishlist' %}{{ 'wishlist_page.meta' | t }}{%- elsif template == 'search.compare' %}{{ 'compare_page.meta' | t }}{%- else -%}{{ page_title }}{%- endif -%}
       {%- if current_tags -%}{%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}{%- endif -%}
@@ -49,7 +49,7 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}
-    
+    {{ 'promise-section.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | img_url: '1x1' }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>
