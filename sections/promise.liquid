@@ -8,7 +8,6 @@
 
   {% when 'cards' %}  
      
-      
           <div class="card">
               <div id="incards" class="{{ block.settings.class_name }}">
                   <span class="icon"></span>
@@ -28,10 +27,6 @@
               </div>
           </div>
             
-       
-  
-
-
  
 {% endcase %} 
 {% endfor %}
@@ -41,7 +36,7 @@
   $(document).ready(function()
     {
       console.log("ready");
-      $('.cards').hover(
+      $('#incards').hover(
         function(){ 
           console.log("hover");
           $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
