@@ -49,7 +49,6 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}
-    {{ 'promise-section.css' | asset_url | stylesheet_tag }}  
   </head>
 
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | img_url: '1x1' }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>
