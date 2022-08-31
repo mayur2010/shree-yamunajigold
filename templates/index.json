@@ -1730,6 +1730,7 @@
     },
     "164620932069107a3a": {
       "type": "shipping",
+      "disabled": true,
       "blocks": {
         "164620932047c7965f-0": {
           "type": "shipping",
@@ -1816,6 +1817,41 @@
         "code_cus_css": ".SectionID {\nbackground-color:#568956\n}"
       }
     },
+    "1661939333a62bb224": {
+      "type": "top_heading",
+      "blocks": {
+        "166193933244dd3800-0": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "Yamunajigold Promises"
+          }
+        },
+        "166193933244dd3800-1": {
+          "type": "bl_subheading",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "Best theme shopify"
+          }
+        }
+      },
+      "block_order": [
+        "166193933244dd3800-0",
+        "166193933244dd3800-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "25px,,50px,",
+        "pd": "20px,,,",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
     "16619340711a3aa5e4": {
       "type": "promise",
       "blocks": {
@@ -1878,6 +1914,7 @@
     "165701724167a4f159",
     "1646209857bf69e76a",
     "164620932069107a3a",
+    "1661939333a62bb224",
     "16619340711a3aa5e4"
   ]
 }
