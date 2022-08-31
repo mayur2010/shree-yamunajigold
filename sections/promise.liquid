@@ -2,6 +2,11 @@
 <script type="text/javascript">
    
       console.log("ready");
+      $(".incards").hover(function() {
+    		$(".hover-content").toggleClass("active");
+    		console.log("dayumm");
+    	});
+
       $('.incards').hover(
         function(){ 
           console.log("hover");
