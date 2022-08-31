@@ -7,7 +7,7 @@
   {% when 'cards' %}  
     <div class="cards" {{ block.shopify_attributes }}>   
  
-      {{ block.settings.linktext | link_to: block.settings.linkurl }}
+      {{ block.settings.readmore_link_text | link_to: block.settings.button_link }}
     </div> 
  
 {% endcase %} 
