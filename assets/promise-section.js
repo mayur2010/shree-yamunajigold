@@ -1,5 +1,9 @@
  
       console.log("ready");
+      $( ".incards" ).mouseover(function() {
+        console.log ("mouseover");
+      });
+
       $('.incards').mouseover(
         function(){ 
           console.log("hover");
