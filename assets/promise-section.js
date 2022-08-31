@@ -1,6 +1,6 @@
  
       console.log("ready");
-      $('.incards').hover(
+      $('.incards').mouseover(
         function(){ 
           console.log("hover");
           $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
