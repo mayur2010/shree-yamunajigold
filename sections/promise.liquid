@@ -1,7 +1,6 @@
 {{ 'promise-section.css' | asset_url | stylesheet_tag }}
 <script type="text/javascript">
-  document.ready(function()
-    {
+   
       console.log("ready");
       $('.incards').hover(
         function(){ 
@@ -12,7 +11,7 @@
           $(this).children(".hover-content").removeClass("active"); //Remove an active class to the anchor
         }
      )
-   });
+   
 
           </script>
 
