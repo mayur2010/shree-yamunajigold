@@ -9,7 +9,7 @@
   {% when 'cards' %}  
      
           <div class="card">
-              <div id="incards" class="{{ block.settings.class_name }}">
+              <div id="incards" class="subcard {{ block.settings.class_name }}">
                   <span class="icon"></span>
                   <div class="store-text">{{ block.settings.title_first }}<br> {{ block.settings.title_second }} </div>
                   <div class="hover-content">
@@ -36,7 +36,7 @@
   $(document).ready(function()
     {
       console.log("ready");
-      $('.card').hover(
+      $('.subcard').hover(
         function(){ 
           console.log("hover");
           $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
