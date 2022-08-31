@@ -16,7 +16,7 @@
 //   );
 // });
 
-jQuery_T4NT(document).ready(function (t) {
+document.ready(function (t) {
     t(document).on("mouseover", ".incards", function (e) {
       $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
     });
