@@ -2,11 +2,16 @@
 <!-- <script src="{{ 'promise-section.js' | asset_url }}"></script> -->
 <script>
    
-   console.log("ready");
-      $( ".incards" ).hover(function() {
+   jQuery_T4NT(document).ready(function($) {
+    console.log("ready");
+
+
+   
+    $( ".incards" ).hover(function() {
         console.log ("mouseover");
       });
 
+       
       $('.incards').hover(
         function(){ 
           console.log("hover");
@@ -16,6 +21,12 @@
           $(this).children(".hover-content").removeClass("active"); //Remove an active class to the anchor
         }
      )
+
+});
+
+
+
+
     
 
 </script>
