@@ -7,7 +7,7 @@
      <div class="promise-section">
       <div class="cards {{ block.shopify_attributes }}">
           <div class="card">
-              <div class="incards certified">
+              <div class="incards {{ block.settings.class_name }}">
                   <span class="icon"></span>
                   {{ block.settings.readmore_link_text | link_to: block.settings.button_link }}
                   <div class="store-text">{{ block.settings.title_first }}<br> {{ block.settings.title_second }} </div>
@@ -50,6 +50,15 @@
         "type": "cards",
         "name": "Cards",
         "settings": [
+        {
+          "type": "header",
+          "content": "Code Configurations" 
+        },
+        {
+          "type": "text",
+          "id": "class_name",
+          "label": "Class Name"
+        },
           {
             "type": "header",
             "content": "Cards Details" 
