@@ -1819,10 +1819,22 @@
     "16619340711a3aa5e4": {
       "type": "promise",
       "blocks": {
-        "a20c12d5-3a1b-46bc-8fb5-00d4a42b40fb": {
+        "0251cac1-0785-42d9-a3a1-220dfa97702e": {
           "type": "cards",
           "settings": {
             "class_name": "certified",
+            "title_first": "100% Certified",
+            "title_second": "Jewellery",
+            "description_title": "100% Certified Jewellery",
+            "description_text": "<p>Every piece you get is fully checked for quality and authenticity by reputed agencies:<\/p><p>GOLD certified with BIS Hallmark.DIAMOND certificate of authenticity from IGI, SGL and HKD.SOLITAIRES carry a certificate of authenticity from GIA and IGI.<\/p>",
+            "button_link": "\/",
+            "readmore_link_text": "Read more"
+          }
+        },
+        "a20c12d5-3a1b-46bc-8fb5-00d4a42b40fb": {
+          "type": "cards",
+          "settings": {
+            "class_name": "refund",
             "title_first": "100%",
             "title_second": "Refund",
             "description_title": "100% Refund",
@@ -1830,10 +1842,24 @@
             "button_link": "\/",
             "readmore_link_text": "Read more"
           }
+        },
+        "5b400fdf-317d-4813-a6ee-49ca9ac49b86": {
+          "type": "cards",
+          "settings": {
+            "class_name": "exchange",
+            "title_first": "Lifetime Exchange",
+            "title_second": "& Buyback",
+            "description_title": "Lifetime Exchange & Buyback",
+            "description_text": "<p>If ever you feel like exchanging your old Jewellery for newer designs, we are game! Exchange the product for its current value or get Cash with just minor deductions.<\/p>",
+            "button_link": "\/",
+            "readmore_link_text": "Read more"
+          }
         }
       },
       "block_order": [
-        "a20c12d5-3a1b-46bc-8fb5-00d4a42b40fb"
+        "0251cac1-0785-42d9-a3a1-220dfa97702e",
+        "a20c12d5-3a1b-46bc-8fb5-00d4a42b40fb",
+        "5b400fdf-317d-4813-a6ee-49ca9ac49b86"
       ],
       "settings": {
       }
