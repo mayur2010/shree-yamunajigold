@@ -1,5 +1,24 @@
 {{ 'promise-section.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'promise-section.js' | asset_url }}"></script>
+<!-- <script src="{{ 'promise-section.js' | asset_url }}"></script> -->
+<script>
+   
+   console.log("ready");
+      $( ".incards" ).mouseover(function() {
+        console.log ("mouseover");
+      });
+
+      $('.incards').mouseover(
+        function(){ 
+          console.log("hover");
+          $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
+        },
+        function() {
+          $(this).children(".hover-content").removeClass("active"); //Remove an active class to the anchor
+        }
+     )
+    
+
+</script>
 
 {% for block in section.blocks %}  
 {% case block.type %}
