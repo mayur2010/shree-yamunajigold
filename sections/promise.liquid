@@ -3,11 +3,11 @@
 <script>
    
    console.log("ready");
-      $( ".incards" ).mouseover(function() {
+      $( ".incards" ).hover(function() {
         console.log ("mouseover");
       });
 
-      $('.incards').mouseover(
+      $('.incards').hover(
         function(){ 
           console.log("hover");
           $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
