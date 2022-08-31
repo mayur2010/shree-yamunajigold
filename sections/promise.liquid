@@ -14,6 +14,39 @@
 {% schema %}
 {
 "name": "Promise",
+"settings": [
+{
+"id": "section-heading",
+"type": "text",
+"label": "Heading 1"
+},
+{
+"id": "section-large-heading",
+"type": "text",
+"label": "Heading 2"
+},
+{
+"id": "description",
+"type": "textarea",
+"label": "Description"
+},
+{
+"id": "view-btn-link",
+"type": "url",
+"label": "Button URL"
+},
+{
+"id": "view-btn",
+"type": "text",
+"label": "Button name"
+}
+],
+"presets": [
+{
+"name": "Promise Section",
+"category": "Promise"
+}
+],
 "blocks": [
       {
         "type": "shipping",
@@ -216,13 +249,7 @@
            }
         ]
       }
-    ],
-    "presets": [
-{
-"name": "Promise Section",
-"category": "Promise"
-}
-],
+    ]
 }
 {% endschema %}
 {% stylesheet %}
