@@ -1815,6 +1815,28 @@
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:#568956\n}"
       }
+    },
+    "16619340711a3aa5e4": {
+      "type": "promise",
+      "blocks": {
+        "a20c12d5-3a1b-46bc-8fb5-00d4a42b40fb": {
+          "type": "cards",
+          "settings": {
+            "class_name": "certified",
+            "title_first": "100%",
+            "title_second": "Refund",
+            "description_title": "100% Refund",
+            "description_text": "<p>In the rare occasion that you are not fully satisfied with our product within 30 days of delivery, we will refund 100% of your money back or exchange it. No Questions Asked!<\/p>",
+            "button_link": "\/",
+            "readmore_link_text": "Read more"
+          }
+        }
+      },
+      "block_order": [
+        "a20c12d5-3a1b-46bc-8fb5-00d4a42b40fb"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -1829,6 +1851,7 @@
     "16570124526923496a",
     "165701724167a4f159",
     "1646209857bf69e76a",
-    "164620932069107a3a"
+    "164620932069107a3a",
+    "16619340711a3aa5e4"
   ]
 }
