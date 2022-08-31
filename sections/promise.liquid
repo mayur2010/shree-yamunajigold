@@ -4,9 +4,9 @@
 <script type="text/javascript">
    
       console.log("ready");
-      $('.incards').hover(
+      $('#incards').hover(
+        console.log("hover"),
         function(){ 
-          console.log("hover");
           $(this).children(".hover-content").addClass("active"); //Add an active class to the anchor
         },
         function() {
@@ -24,7 +24,7 @@
      <div class="promise-section">
       <div class="cards {{ block.shopify_attributes }}">
           <div class="card">
-              <div class="incards {{ block.settings.class_name }}">
+              <div id="incards" class="{{ block.settings.class_name }}">
                   <span class="icon"></span>
                   <div class="store-text">{{ block.settings.title_first }}<br> {{ block.settings.title_second }} </div>
                   <div class="hover-content">
