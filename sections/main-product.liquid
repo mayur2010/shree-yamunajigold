@@ -478,6 +478,40 @@ endif -%}
 
             {%- when 'form' -%}
              
+
+
+            
+          {%- liquid
+                assign product_list = bk_stts.product_list | default:meta_theme.grouped
+                assign advance_pr_type = bk_stts.advance_pr_list | default:meta_theme.advance_pr_type
+                assign advance_label = bk_stts.advance_label | default:meta_theme.advance_label
+                assign is_fit_ratio_img = false
+                if variant_images.size > 0 and bk_stts.enable_fit_ratio_img and bk_stts.color_mode contains 'variant_image'
+                  assign is_fit_ratio_img = true
+                  assign first_ratio_img = variant_images[0].aspect_ratio
+                endif 
+                if product_list == blank
+                  render 'product-form', type:'main', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, isExternal:isExternal, external_title:external_title, external_link:external_link, isProductAvailable:isProductAvailable, isProductDefault:isProductDefault, current_variant:current_variant, remove_soldout: remove_soldout, PR_no_pick:PR_no_pick, isPreoder:isPreoder, is_fit_ratio_img:is_fit_ratio_img, first_ratio_img:first_ratio_img, name_sizeg:name_sizeg, html_sizeg:html_sizeg, advance_pr_type:advance_pr_type, advance_label:advance_label ,shopify_attributes:block.shopify_attributes
+                else
+                  render 'grouped-form', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, product_list:product_list, shopify_attributes:block.shopify_attributes
+                endif -%}
+                
+            
+            {%- when 'size_delivery_ask' -%}
+            <div class="t4s-extra-link" {{ block.shopify_attributes }}>
+              {%- if bk_size_chart != '1' and pos_sizeg == '1' %}{{ html_sizeg }}{% endif -%}
+
+              {%- assign page_delivery = bk_stts.page_dr %}{% if bk_stts.delivery and page_delivery != blank -%}
+              <a class="t4s-ch" data-no-instant rel="nofollow" href="{{page_delivery.url}}" data-class="t4s-mfp-btn-close-inline" data-id="t4s-pr-popup__delivery" data-storageid="{{page_delivery.url}}" data-open-mfp-ajax data-style="max-width:950px" data-mfp-src="{{page_delivery.url}}/?section_id=ajax_popup">{{ 'products.product.delivery_return' | t }}</a>
+              {%- endif -%}
+
+              {%- if bk_stts.ask -%}
+              <a class="t4s-ch" data-no-instant rel="nofollow" href="{{product.url}}" data-class="t4s-mfp-btn-close-inline" data-id="t4s-pr-popup__contact" data-storageid="contact_product{{product.id}}" data-open-mfp-ajax data-style="max-width:570px" data-mfp-src="{{product.url}}/?section_id=ajax_popup" data-phone='{{bk_stts.phone}}'>{{ 'products.product.ask_question' | t }}</a>
+              {%- endif -%}
+
+            </div>
+
+
 <style type="text/css">
   
   
@@ -540,49 +574,19 @@ endif -%}
 	}
   }
   </style>
-
-<!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
+  
+            <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
 <a href="#popup1" class="shopify-payment-button__button shopify-payment-button__button--unbranded">Customize Your Order</a>
  
-            <div id="popup1" class="overlay">
-              <div class="popup">
-                <a class="close" href="#">&times;</a>
-                <div class="content">
-                  <div class="globoRelatedProductsCustom"></div>
-                </div>
-              </div>
-            </div>
-             
-            
-          {%- liquid
-                assign product_list = bk_stts.product_list | default:meta_theme.grouped
-                assign advance_pr_type = bk_stts.advance_pr_list | default:meta_theme.advance_pr_type
-                assign advance_label = bk_stts.advance_label | default:meta_theme.advance_label
-                assign is_fit_ratio_img = false
-                if variant_images.size > 0 and bk_stts.enable_fit_ratio_img and bk_stts.color_mode contains 'variant_image'
-                  assign is_fit_ratio_img = true
-                  assign first_ratio_img = variant_images[0].aspect_ratio
-                endif 
-                if product_list == blank
-                  render 'product-form', type:'main', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, isExternal:isExternal, external_title:external_title, external_link:external_link, isProductAvailable:isProductAvailable, isProductDefault:isProductDefault, current_variant:current_variant, remove_soldout: remove_soldout, PR_no_pick:PR_no_pick, isPreoder:isPreoder, is_fit_ratio_img:is_fit_ratio_img, first_ratio_img:first_ratio_img, name_sizeg:name_sizeg, html_sizeg:html_sizeg, advance_pr_type:advance_pr_type, advance_label:advance_label ,shopify_attributes:block.shopify_attributes
-                else
-                  render 'grouped-form', product: product, bk_stts: bk_stts, pr_se_id: pr_se_id, product_list:product_list, shopify_attributes:block.shopify_attributes
-                endif -%}
-                
-            
-            {%- when 'size_delivery_ask' -%}
-            <div class="t4s-extra-link" {{ block.shopify_attributes }}>
-              {%- if bk_size_chart != '1' and pos_sizeg == '1' %}{{ html_sizeg }}{% endif -%}
-
-              {%- assign page_delivery = bk_stts.page_dr %}{% if bk_stts.delivery and page_delivery != blank -%}
-              <a class="t4s-ch" data-no-instant rel="nofollow" href="{{page_delivery.url}}" data-class="t4s-mfp-btn-close-inline" data-id="t4s-pr-popup__delivery" data-storageid="{{page_delivery.url}}" data-open-mfp-ajax data-style="max-width:950px" data-mfp-src="{{page_delivery.url}}/?section_id=ajax_popup">{{ 'products.product.delivery_return' | t }}</a>
-              {%- endif -%}
-
-              {%- if bk_stts.ask -%}
-              <a class="t4s-ch" data-no-instant rel="nofollow" href="{{product.url}}" data-class="t4s-mfp-btn-close-inline" data-id="t4s-pr-popup__contact" data-storageid="contact_product{{product.id}}" data-open-mfp-ajax data-style="max-width:570px" data-mfp-src="{{product.url}}/?section_id=ajax_popup" data-phone='{{bk_stts.phone}}'>{{ 'products.product.ask_question' | t }}</a>
-              {%- endif -%}
-
-            </div>
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <div class="globoRelatedProductsCustom"></div>
+    </div>
+  </div>
+</div>
+ 
 
             {%- when 'meta' -%}
             {%- assign ck_meta = false -%}
