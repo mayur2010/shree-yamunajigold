@@ -2,6 +2,7 @@
 {{ 'section.css' | asset_url | stylesheet_tag }}
 {{ 'button-style.css' | asset_url | stylesheet_tag }}
 
+
 {%- comment -%} Capture the content for header containing the tracking data {%- endcomment -%}
 
 {%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
@@ -13,6 +14,12 @@
    replace:'%20',' ' | 
    replace:'\u0026','&'
 -%}
+ 
+{% assign temp = full_url | split: "&title=" | first %}
+
+{% assign firstpart = temp | split: "id=" | last %}
+
+{% assign secondpart = full_url | split: "title=" | last %}
 
 
 <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
@@ -50,7 +57,7 @@
                             {%- form 'contact', id: formId -%}
                                 {%- render 'form-status', form: form, form_id: formId -%}
                                 <h3 class="t4s-form-title">{{bk_stts.heading}}</h3>
-                                Product URLs: {{ full_url }}
+                                Product URLs: {{ request.origin }}/{{ firstpart }}
                                 <p>
                                     <label for="{{ formId }}-name">{{ 'templates.contact.form.name' | t }}</label>
                                     <input required="required" type="text" id="{{ formId }}-name" name="contact[name]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
