@@ -475,9 +475,7 @@ endif -%}
                    {%-endif-%}
                   </div>
 
-          <style>
-        
-          </style>        
+{{ 'modal-css.css' | asset_url | stylesheet_tag }}    
 
             {%- when 'form' -%}
             <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
@@ -485,6 +483,7 @@ endif -%}
               Customize Your Order
             </a>
 
+            <!-- Create responsive css & html modal on button click -->
             
 
             <!-- <div class="custom-model-main">
