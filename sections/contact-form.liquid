@@ -48,7 +48,7 @@
                                     {%- if form.errors contains 'email' -%}
                                         <span id="{{ formId}}-email-error" class="t4s-input-error-message"><i class="las la-exclamation-triangle"></i>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
                                     {%- endif -%}
-                                </p>
+                                </p> 
                                 {%- if bk_stts.enable_phone -%}
                                     <p>
                                         <label for="{{ formId }}-phone">{{ 'templates.contact.form.phone' | t }}</label>
