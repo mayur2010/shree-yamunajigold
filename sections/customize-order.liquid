@@ -1,8 +1,7 @@
 <!-- sections/contact-form.liquid -->
 {{ 'section.css' | asset_url | stylesheet_tag }}
 {{ 'button-style.css' | asset_url | stylesheet_tag }}
-{% assign pageurl = content_for_header| split:'"pageurl":"' | last | split:'\u0026' | first %}
-{% assign product_url = pageurl | split:'?id=' | last %}
+{% assign full_url = request.host | append: request.path %}
 
 <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
 {%-liquid
@@ -39,7 +38,7 @@
                             {%- form 'contact', id: formId -%}
                                 {%- render 'form-status', form: form, form_id: formId -%}
                                 <h3 class="t4s-form-title">{{bk_stts.heading}}</h3>
-                                Product Title: {{ product_title }} 
+                                Product URL: {{ full_url }}
                                 <p>
                                     <label for="{{ formId }}-name">{{ 'templates.contact.form.name' | t }}</label>
                                     <input required="required" type="text" id="{{ formId }}-name" name="contact[name]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
