@@ -554,11 +554,20 @@ endif -%}
 
             {%- when 'form' -%}
             <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
-            <a href="/pages/customize-your-order" class="pv-btn">
+            <a href="/pages/customize-your-order" class="cta" href="#google">
               Customize Your Order
             </a>
 
-            
+            <div id="google" class="modaloverlay">
+              <div class="modal">
+                <a href="#close" class="close">&times;</a>
+                <div>
+                  <h1>Here is some content inside the Modal.</h1>
+                  <p>If the modal shrinks below the breakpoint then the modal goes full screen for mobile use.</p>
+                </div>
+              </div>
+            </div>
+
             <!-- <div class="custom-model-main">
               <div class="custom-model-inner">        
               <div class="close-btn">×</div>
