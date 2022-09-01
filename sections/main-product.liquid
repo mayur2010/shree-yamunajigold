@@ -477,9 +477,7 @@ endif -%}
 
 
             {%- when 'form' -%}
-            <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
-            <!-- {{ 'modal-css.css' | asset_url | stylesheet_tag }}     -->
-
+             
 <style type="text/css">
   
   
@@ -543,10 +541,9 @@ endif -%}
   }
   </style>
 
-            <a class="button" href="#popup1"> 
-              Customize Your Order
-            </a>
-
+<!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
+<a href="#popup1" class="shopify-payment-button__button pv-btn">Customize Your Order</a>
+ 
             <div id="popup1" class="overlay">
               <div class="popup">
                 <a class="close" href="#">&times;</a>
@@ -555,56 +552,7 @@ endif -%}
                 </div>
               </div>
             </div>
-            
-
-            <!-- <div class="custom-model-main">
-              <div class="custom-model-inner">        
-              <div class="close-btn">×</div>
-                  <div class="custom-model-wrap">
-                    <div class="owl-slider">
-                      <div id="carousel" class="owl-carousel">
-                        <div class="item">
-                          {%- liquid render 'product-grid-item1' for collection.products as product,product:product,isGrowaveWishlist:isGrowaveWishlist,show_img:show_img,show_vendor:show_vendor,enable_pr_color:enable_pr_color,show_cl_type:show_cl_type,get_color:get_color,enable_pr_size:enable_pr_size,pr_size_pos:pr_size_pos,get_size:get_size,show_size_type:show_size_type,price_varies_style:price_varies_style,app_review:app_review,enable_rating:enable_rating,use_countdown:use_countdown,imgatt:imgatt,show_list_btns:false %}
-
-                        </div>
-                        <div class="item">
-                          <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cdn.europosters.eu/image/1300/zen-nature-i49609.jpg" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="https://cutewallpaper.org/21/anime-trees-background/Anime-Tree-Background-98-images-in-Collection-Page-3.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                  </div>  
-              </div>  
-              <div class="bg-overlay"></div>
-          </div>  -->
-
-
-
-           
-
+             
             
           {%- liquid
                 assign product_list = bk_stts.product_list | default:meta_theme.grouped
