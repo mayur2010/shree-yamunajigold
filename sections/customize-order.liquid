@@ -57,10 +57,10 @@
                             {%- form 'contact', id: formId -%}
                                 {%- render 'form-status', form: form, form_id: formId -%}
                                 <h3 class="t4s-form-title">{{bk_stts.heading}}</h3>
-                                <!-- {{ request.origin }}/products/ -->
+                                <!--  -->
                                 <p>
-                                    <label for="{{ formId }}-purl">Product URL:</label>
-                                    <input required="required" type="text" id="{{ formId }}-purl" name="contact[Product URL]" value="{{ firstpart }}">
+                                    <label for="{{ formId }}-purl">Selected Product URL:</label>
+                                    <input required="required" type="text" id="{{ formId }}-purl" name="contact[Product URL]" value="{{ request.origin }}/products/{{ firstpart }}">
                                 </p>
 
                                 <p>
