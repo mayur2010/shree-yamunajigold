@@ -479,11 +479,19 @@ endif -%}
 
             {%- when 'form' -%}
             <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
-            <a class="cta" href="#google">
+            <a class="button" href="#popup1">
               Customize Your Order
             </a>
 
-            <!-- Create responsive css & html modal on button click -->
+            <div id="popup1" class="overlay">
+              <div class="popup">
+                <h2>Here i am</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  Thank to pop me out of that button, but now i'm done so you can close this window.
+                </div>
+              </div>
+            </div>
             
 
             <!-- <div class="custom-model-main">
