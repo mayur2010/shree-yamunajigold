@@ -475,7 +475,10 @@ endif -%}
                    {%-endif-%}
                   </div>
 
-<!-- {{ 'modal-css.css' | asset_url | stylesheet_tag }}     -->
+
+            {%- when 'form' -%}
+            <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
+            <!-- {{ 'modal-css.css' | asset_url | stylesheet_tag }}     -->
 
 <style type="text/css">
   .box {
@@ -561,8 +564,7 @@ endif -%}
 	}
   }
   </style>
-            {%- when 'form' -%}
-            <!-- <a href="/pages/customize-your-order" class="shopify-payment-button__button pv-btn">Customize Your Order</a> -->
+  
             <a class="button" href="#popup1"> 
               Customize Your Order
             </a>
