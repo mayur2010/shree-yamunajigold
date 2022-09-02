@@ -106,7 +106,7 @@
             "type": "copyR",
             "settings": {
               "text": "Copyright © [year] <span>ShreeYamunaji Jewellers<\/span> all rights reserved.",
-              "mgb": 10,
+              "mgb": 15,
               "mgb_mb": 0
             }
           }
