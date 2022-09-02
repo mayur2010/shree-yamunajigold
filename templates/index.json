@@ -453,8 +453,8 @@
         "cl_bg_gradient": "",
         "image_bg": "shopify:\/\/shop_images\/10.png",
         "mg": ",,110px,",
-        "pd": "10px,,,",
-        "mg_mb": "10px,,,",
+        "pd": "10px,,10px,",
+        "mg_mb": "10px,,10px,",
         "pd_mb": ",,10px",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
