@@ -1525,7 +1525,7 @@
         "cl_bg_gradient": "",
         "mg": "50px,,70px,",
         "pd": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,50px,",
         "pd_mb": "",
         "use_cus_css": true,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}\n@media (max-width:768px) {\n.SectionID {\n     display:none;\n}\n}"
@@ -1739,7 +1739,7 @@
         "mg": "25px,,50px,",
         "pd": "70px,,90px,",
         "mg_mb": "5px,,5px,",
-        "pd_mb": "5px,,5px,"
+        "pd_mb": "15px,,20px,"
       }
     },
     "164620932069107a3a": {
@@ -1859,7 +1859,7 @@
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "25px,,50px,",
-        "pd": "20px,,,",
+        "pd": "0px,,,",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -1923,8 +1923,8 @@
         "cl_bg_gradient": "",
         "mg": "25px,,50px,",
         "pd": "20px,,,",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
+        "mg_mb": ",,0px,",
+        "pd_mb": ",,0px,",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
