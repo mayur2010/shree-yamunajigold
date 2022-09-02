@@ -381,7 +381,7 @@
         "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,30px,",
+        "mg": ",,,",
         "pd": "",
         "mg_mb": ",,10px,",
         "pd_mb": "",
@@ -453,9 +453,9 @@
         "cl_bg_gradient": "",
         "image_bg": "shopify:\/\/shop_images\/10.png",
         "mg": ",,110px,",
-        "pd": "",
-        "mg_mb": ",,50px,",
-        "pd_mb": "",
+        "pd": "10px,,,",
+        "mg_mb": "10px,,,",
+        "pd_mb": ",,10px",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
@@ -1053,6 +1053,19 @@
             "space_h_item_mb": "2",
             "space_v_item_mb": "2"
           }
+        },
+        "fb4854d4-ff20-445d-89fd-d7ab3e4a9cc0": {
+          "type": "btn_detail",
+          "settings": {
+            "button_label": "View full details",
+            "button_link": "shopify:\/\/products\/shree-krishna-gold-ring",
+            "open_link": "_self",
+            "btn_icon": true,
+            "button_style": "outline",
+            "btn_size": "medium",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
@@ -1062,7 +1075,8 @@
         "16616902188803d40d-3",
         "16616902188803d40d-4",
         "16616902188803d40d-5",
-        "16616902188803d40d-6"
+        "16616902188803d40d-6",
+        "fb4854d4-ff20-445d-89fd-d7ab3e4a9cc0"
       ],
       "settings": {
         "product": "shree-krishna-gold-ring",
