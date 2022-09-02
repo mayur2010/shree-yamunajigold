@@ -201,7 +201,7 @@
         "tabs_design": "accordion",
         "tabs_design_mb": "accordion",
         "tabs_position": "inner",
-        "enable_first_tab": true,
+        "enable_first_tab": false,
         "tabs_layout": "default",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
@@ -258,10 +258,10 @@
         "dots_space": 10,
         "dots_hidden_mobile": false,
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
+        "cl_bg": "rgba(0,0,0,0)",
         "cl_bg_gradient": "",
-        "mg": "75px,,50px,",
-        "pd": "",
+        "mg": "75px,,75px,",
+        "pd": "50px,,50px,",
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
@@ -444,8 +444,9 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "50px,,50px,",
-        "pd": "",
+        "image_bg": "shopify:\/\/shop_images\/10.png",
+        "mg": "75x,,75px,",
+        "pd": "50px,,50px,",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -500,7 +501,7 @@
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "75px,,50px,",
-        "pd": "",
+        "pd": "50px,,50px,",
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
