@@ -923,7 +923,7 @@
         "166169031015805e1c-1"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -1355,7 +1355,7 @@
         "1657012451c369a28e-2"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
         "top_heading": "Customer Review",
         "icon_heading": "las la-gem",
@@ -1699,7 +1699,7 @@
         "1646209857c01ad255-2"
       ],
       "settings": {
-        "design_heading": "8",
+        "design_heading": "2",
         "heading_align": "t4s-text-center",
         "top_heading": "@ FOLLOW US ON INSTAGRAM",
         "icon_heading": "gem",
@@ -1736,10 +1736,10 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
+        "mg": "50px,,50px,",
+        "pd": "50px,,50px,",
+        "mg_mb": "5px,,5px,",
+        "pd_mb": "5px,,5px,"
       }
     },
     "164620932069107a3a": {
