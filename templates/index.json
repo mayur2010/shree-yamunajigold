@@ -6,7 +6,7 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slider-10-9.png",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-09-03_at_10.47.17_AM.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -40,6 +40,7 @@
         },
         "164602873867eb3815-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "SUMMER 2022",
             "remove_br_tag": false,
@@ -62,6 +63,7 @@
         },
         "164602873867eb3815-2": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "text": "Save up to 70%",
             "remove_br_tag": false,
@@ -84,6 +86,7 @@
         },
         "390cb6f8-c5fc-44ed-badf-074a03818e5a": {
           "type": "custom_button",
+          "disabled": true,
           "settings": {
             "button_text": "Explore Now",
             "button_link": "shopify:\/\/collections",
