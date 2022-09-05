@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-#followers .text {
+#followers .ftext {
   max-width: 400px;
 }
-#followers .text h3 {
+#followers .ftext h3 {
   text-align: left;
 }
 /* body {
@@ -15,36 +15,36 @@
   justify-content: center;
   background: #fef6f4;
 } */
-#followers .container {
+#followers .fcontainer {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-#followers .container .card {
+#followers .fcontainer .fcard {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#followers .container .card i {
+#followers .fcontainer .fcard i {
   color: #333;
   font-size: 50px;
 }
-#followers .container .card p.counter {
+#followers .fcontainer .fcard p.counter {
   font-size: 60px;
   margin: 5px;
 }
-#followers .container .card p.label {
+#followers .fcontainer .fcard p.label {
   margin: 5px;
 }
 @media screen and (max-width: 600px) {
   body {
     background: #fef6f4;
   }
-  #followers .container {
+  #followers .fcontainer {
     flex-direction: column;
   }
-  #followers .card {
+  #followers .fcard {
     padding: 20px;
   }
 }
