@@ -16,9 +16,9 @@
        // make api call
        return 30000;
      case "pinterest":
-       return 12000;
+       return {{ section.settings.pinterest_count }};
      case "instagram":
-       return 9000;
+       return {{ section.settings.instagram_count }};
    }
  }
  function loadValue(element, value) {
