@@ -343,6 +343,41 @@
             "button_mgb_mb": 0,
             "animation": "fadeInDown"
           }
+        },
+        "89071e8f-d826-4ae7-82fc-46e8750d2239": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner1-pink.png",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 0,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
         }
       },
       "block_order": [
@@ -357,7 +392,8 @@
         "164602873867eb3815-4",
         "164602873867eb3815-5",
         "164602873867eb3815-6",
-        "164602873867eb3815-7"
+        "164602873867eb3815-7",
+        "89071e8f-d826-4ae7-82fc-46e8750d2239"
       ],
       "settings": {
         "se_height": "t4s_ratioadapt",
