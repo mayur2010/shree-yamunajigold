@@ -1970,6 +1970,13 @@
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
+    },
+    "1662383432e7b35649": {
+      "type": "followers",
+      "settings": {
+        "pinterest_text": "1500",
+        "instagram_text": "800"
+      }
     }
   },
   "order": [
@@ -1987,6 +1994,7 @@
     "164620932069107a3a",
     "1661939333a62bb224",
     "16619340711a3aa5e4",
-    "1662126291437a4222"
+    "1662126291437a4222",
+    "1662383432e7b35649"
   ]
 }
