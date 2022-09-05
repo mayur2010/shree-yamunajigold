@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 #followers{
-    font-family: "Roboto Mono";
+    font-family: var(--font-body-family);
     color: #333;
     /* height: 100vh; */
     padding: 150px 20px;
