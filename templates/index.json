@@ -488,16 +488,16 @@
         "item_rd": 0,
         "img_effect": "none",
         "b_effect": "border-run",
-        "image_position": "2",
+        "image_position": "8",
         "coll_layout": "2",
         "layout": "t4s-container-wrap",
         "cl_bg": "rgba(0,0,0,0)",
         "cl_bg_gradient": "",
         "image_bg": "shopify:\/\/shop_images\/10.png",
         "mg": ",,110px,",
-        "pd": "10px,,10px,",
+        "pd": "35px,,35px,",
         "mg_mb": ",,10px,",
-        "pd_mb": ",,10px",
+        "pd_mb": "10px,,10px,",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
@@ -1776,12 +1776,17 @@
         "dots_space": 10,
         "dots_hidden_mobile": false,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#faf2f2",
+        "cl_bg": "#fef6f4",
         "cl_bg_gradient": "",
-        "mg": "25px,,50px,",
-        "pd": "70px,,90px,",
-        "mg_mb": "5px,,5px,",
-        "pd_mb": "15px,,20px,"
+        "mg": "25px,,0px,",
+        "pd": "50px,,0px,",
+        "mg_mb": "5px,,0px,",
+        "pd_mb": "20px,,0px,"
+      }
+    },
+    "1662383432e7b35649": {
+      "type": "followers",
+      "settings": {
       }
     },
     "164620932069107a3a": {
@@ -1873,6 +1878,21 @@
         "code_cus_css": ".SectionID {\nbackground-color:#568956\n}"
       }
     },
+    "1662126291437a4222": {
+      "type": "custom-html",
+      "settings": {
+        "code": "",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "25px,,,",
+        "pd": "20px,,,",
+        "mg_mb": ",,0px,",
+        "pd_mb": ",,0px,",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
     "1661939333a62bb224": {
       "type": "top_heading",
       "blocks": {
@@ -1956,26 +1976,19 @@
       "settings": {
       }
     },
-    "1662126291437a4222": {
+    "16639249027e278871": {
       "type": "custom-html",
       "settings": {
         "code": "",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": "25px,,50px,",
-        "pd": "20px,,,",
-        "mg_mb": ",,0px,",
-        "pd_mb": ",,0px,",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,40px,",
+        "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
-      }
-    },
-    "1662383432e7b35649": {
-      "type": "followers",
-      "settings": {
-        "pinterest_text": "1500",
-        "instagram_text": "800"
       }
     }
   },
@@ -1991,10 +2004,11 @@
     "16570124526923496a",
     "165701724167a4f159",
     "1646209857bf69e76a",
+    "1662383432e7b35649",
     "164620932069107a3a",
+    "1662126291437a4222",
     "1661939333a62bb224",
     "16619340711a3aa5e4",
-    "1662126291437a4222",
-    "1662383432e7b35649"
+    "16639249027e278871"
   ]
 }
