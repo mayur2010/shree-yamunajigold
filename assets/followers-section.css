@@ -50,4 +50,8 @@
   #followers .fcard {
     padding: 20px;
   }
+  #followers .fcontainer .fcard{
+    display:flex;
+    flex-direction: row;
+  }
 }
