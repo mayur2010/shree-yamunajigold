@@ -48,7 +48,7 @@
     flex-direction: column;
   }
   #followers .fcard {
-    padding: 20px;
+    padding: 0px 20px;
   }
   #followers .fcontainer .fcard{
     display:flex;
