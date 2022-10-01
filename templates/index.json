@@ -1081,6 +1081,7 @@
         },
         "16616902188803d40d-6": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "socials_align": "start",
             "social_mode": "1",
