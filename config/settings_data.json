@@ -1001,13 +1001,13 @@
               "col": "4"
             }
           },
-          "1eac2b5e-8620-49f9-b500-aed8dde673bb": {
-            "type": "link3",
+          "31b0751c-9378-4557-be28-99c34fadabad": {
+            "type": "link",
             "settings": {
-              "tt_hd": "Shop By Stone & Metal",
+              "tt_hd": "For Gifting",
               "url": "",
               "open_link": "_self",
-              "menu": "stone-metal",
+              "menu": "gifts",
               "col": "4"
             }
           },
@@ -1018,7 +1018,7 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/2.png",
+              "image": "shopify:\/\/shop_images\/1_d1952e74-afd0-4a93-8610-7c4921a75b48.png",
               "img_effect": "zoom",
               "b_effect": "none",
               "b_link": "",
@@ -1049,13 +1049,13 @@
               "col": "4"
             }
           },
-          "805154da-ea09-44eb-8b4c-d9a0d0680b6c": {
-            "type": "link3",
+          "b3c09a9d-0ab6-468c-bd40-26cbc747d21e": {
+            "type": "link",
             "settings": {
-              "tt_hd": "Shop By Metal & Stone",
+              "tt_hd": "For Gifting",
               "url": "",
               "open_link": "_self",
-              "menu": "stone-metal",
+              "menu": "gifts",
               "col": "4"
             }
           },
@@ -1066,7 +1066,7 @@
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/2b4c40c0c34546849f12d51e8098f898.png",
+              "image": "shopify:\/\/shop_images\/banner-15.png",
               "img_effect": "zoom",
               "b_effect": "none",
               "b_link": "",
@@ -1090,21 +1090,31 @@
           "564a674c-b0e5-463b-ba1d-71d6fc450b86": {
             "type": "link3",
             "settings": {
-              "tt_hd": "Solitaries",
+              "tt_hd": "Bracelets",
               "url": "",
               "open_link": "_self",
               "menu": "bracelet",
-              "col": "4"
+              "col": "3"
             }
           },
-          "1ad94363-6647-4795-9b02-88433acecfd9": {
+          "f138cb87-4f29-4112-b110-fe78dc6e5a85": {
             "type": "link3",
             "settings": {
-              "tt_hd": "Stone & Metal",
+              "tt_hd": "Bangles",
               "url": "",
               "open_link": "_self",
-              "menu": "stone-metal",
-              "col": "4"
+              "menu": "bangles",
+              "col": "3"
+            }
+          },
+          "9cc793ba-2128-4cc0-9e5a-a7f4119ac09e": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "For Gifting",
+              "url": "",
+              "open_link": "_self",
+              "menu": "gifts",
+              "col": "3"
             }
           },
           "dcd93be0-c4bb-4564-903a-3557b0b68990": {
@@ -1113,8 +1123,8 @@
               "image_ratio": "ratioadapt",
               "image_size": "cover",
               "image_position": "8",
-              "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/28c67859e65d4204a4d0f34461afab5d.png",
+              "height_dk": 403,
+              "image": "shopify:\/\/shop_images\/instagram-01.png",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "",
@@ -1126,118 +1136,43 @@
               "cl_txt": "#ffffff",
               "cl_overlay": "#000000",
               "cl_opacity": 5,
-              "col": "4"
-            }
-          },
-          "5952e385-42a5-4603-9be9-64b76f15ef48": {
-            "type": "mega",
-            "settings": {
-              "id": 4
-            }
-          },
-          "15a27fa5-0bfa-44ef-bcb1-2c3703f2e978": {
-            "type": "link3",
-            "settings": {
-              "tt_hd": "Shop By Style",
-              "url": "",
-              "open_link": "_self",
-              "menu": "solitaires",
-              "col": "4"
-            }
-          },
-          "4dd7b43b-6c32-41d7-9563-d180260183e6": {
-            "type": "link3",
-            "settings": {
-              "tt_hd": "Loose Diamond",
-              "url": "",
-              "open_link": "_self",
-              "menu": "loose-diamond-1",
-              "col": "4"
-            }
-          },
-          "b4b27aa3-2de9-4c56-a91c-49936c62e697": {
-            "type": "banner",
-            "settings": {
-              "image_ratio": "ratioadapt",
-              "image_size": "cover",
-              "image_position": "8",
-              "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/1266265b82c047b682a744ce25f68334.png",
-              "img_effect": "none",
-              "b_effect": "none",
-              "b_link": "",
-              "open_link": "_self",
-              "html": "",
-              "content_align": "center",
-              "cv_pos": 50,
-              "ch_pos": 50,
-              "cl_txt": "#ffffff",
-              "cl_overlay": "#000000",
-              "cl_opacity": 5,
-              "col": "4"
-            }
-          },
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6": {
-            "type": "pr",
-            "disabled": true,
-            "settings": {
-              "collection": "sale",
-              "product_des": "1",
-              "show_vendor": false,
-              "use_cdt": false,
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "content_align": "default",
-              "limit": 6,
-              "col_dk": "4",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "10"
+              "col": "3"
             }
           },
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
             "type": "mega",
             "settings": {
-              "id": 5
+              "id": 4
             }
           },
-          "c3cffbbb-b41a-4f59-b6af-e1a09a962851": {
+          "20152a0a-24b8-467d-8fa6-fa97a9fc526e": {
             "type": "link",
             "settings": {
-              "tt_hd": "Necklaes",
+              "tt_hd": "Necklace",
               "url": "",
               "open_link": "_self",
               "menu": "necklaces-1",
-              "col": "2"
+              "col": "3"
             }
           },
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
+          "a4e51b8f-8647-4b64-b84e-dfbb4ac11b0e": {
             "type": "link",
             "settings": {
-              "tt_hd": "Pendent",
-              "url": "\/",
-              "open_link": "_self",
-              "menu": "pendents",
-              "col": "2"
-            }
-          },
-          "f43dc752-4efb-47fe-be5d-76096a86ab2a": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Shop All Jewellery",
+              "tt_hd": "Pendants",
               "url": "",
               "open_link": "_self",
-              "menu": "shop-all",
-              "col": "2"
+              "menu": "pendents",
+              "col": "3"
+            }
+          },
+          "9c4ffb8f-3e9f-4786-986e-d7374c36376a": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "For Gifting",
+              "url": "",
+              "open_link": "_self",
+              "menu": "gifts",
+              "col": "3"
             }
           },
           "9f29bb18-5ba0-455f-bb21-4e69912660e8": {
@@ -1259,59 +1194,43 @@
               "cl_txt": "#ffffff",
               "cl_overlay": "#000000",
               "cl_opacity": 5,
+              "col": "3"
+            }
+          },
+          "406587e5-6bbb-4865-a568-5fe03a4fc8b6": {
+            "type": "mega",
+            "settings": {
+              "id": 5
+            }
+          },
+          "6c0cf86e-adf2-40fc-96af-363b666ca947": {
+            "type": "link3",
+            "settings": {
+              "tt_hd": "Silver Jewellery",
+              "url": "",
+              "open_link": "_self",
+              "menu": "silver-jewellery",
               "col": "4"
             }
           },
-          "552902be-02b1-40ca-8475-982bbdb75ed7": {
-            "type": "blogs",
-            "disabled": true,
+          "c4df0335-7746-4f63-8624-b41418fb5d32": {
+            "type": "link",
             "settings": {
-              "blog": "fashion",
-              "post_des": "1",
-              "show_cate": false,
-              "show_tags": true,
-              "show_cnt": false,
-              "show_au": true,
-              "show_dt": true,
-              "show_cm": true,
-              "show_rm": false,
-              "show_irm": false,
-              "date": "date",
-              "content_align": "t4s-text-center",
-              "limit": 8,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "ratio4_3",
-              "image_size": "cover",
-              "image_position": "8",
-              "col_dk": "2",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "8"
+              "tt_hd": "For Gifting",
+              "url": "",
+              "open_link": "_self",
+              "menu": "gifts",
+              "col": "4"
             }
           },
-          "8612600c-cad3-41bf-99b2-924a9096f99d": {
-            "type": "mega",
-            "settings": {
-              "id": 6
-            }
-          },
-          "e545d332-bfa7-42f0-ac86-79d310500b6a": {
+          "03ad98d5-b448-4346-baf4-4a862840ee8b": {
             "type": "banner",
             "settings": {
               "image_ratio": "ratioadapt",
               "image_size": "cover",
               "image_position": "8",
               "height_dk": 400,
-              "image": "shopify:\/\/shop_images\/c94a80d41f324f61ad79ca2be207d2ba.png",
+              "image": "shopify:\/\/shop_images\/2.png",
               "img_effect": "none",
               "b_effect": "none",
               "b_link": "",
@@ -1323,36 +1242,84 @@
               "cl_txt": "#ffffff",
               "cl_overlay": "#000000",
               "cl_opacity": 5,
-              "col": "12"
+              "col": "4"
+            }
+          },
+          "02709076-bdbf-404c-95b6-e0f71ca4dcad": {
+            "type": "mega",
+            "settings": {
+              "id": 6
+            }
+          },
+          "afed4498-af11-462f-900b-4ae5f3c35016": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Shop By",
+              "url": "",
+              "open_link": "_self",
+              "menu": "shop-by",
+              "col": "3"
+            }
+          },
+          "0dc6dda4-6959-4595-8d8a-f45b4a9795d5": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Mangalsutras",
+              "url": "",
+              "open_link": "_self",
+              "menu": "mangalsutra",
+              "col": "3"
+            }
+          },
+          "3678b284-9ec4-4121-920e-1761ba9271b8": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Men's Jewellery",
+              "url": "",
+              "open_link": "_self",
+              "menu": "mens-jewellery",
+              "col": "3"
+            }
+          },
+          "0b01e2d1-97b3-45f9-8e31-1549eb9aeb25": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Kid's Jewellery",
+              "url": "",
+              "open_link": "_self",
+              "menu": "kids-jewellery",
+              "col": "3"
             }
           }
         },
         "block_order": [
           "583a30c7-369d-4a64-a51d-ca53c1685206",
           "2a2bd7da-d812-4112-8049-3d628652f90a",
-          "1eac2b5e-8620-49f9-b500-aed8dde673bb",
+          "31b0751c-9378-4557-be28-99c34fadabad",
           "8905360a-7d03-4d96-8d6a-3bd5392a0750",
           "45fa281e-2be5-4727-bd01-942824713769",
           "ab22f102-e0d5-4436-9bd9-fb3bd285d56e",
-          "805154da-ea09-44eb-8b4c-d9a0d0680b6c",
+          "b3c09a9d-0ab6-468c-bd40-26cbc747d21e",
           "7c928a7c-e956-443a-a210-a1417e02a09d",
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
           "564a674c-b0e5-463b-ba1d-71d6fc450b86",
-          "1ad94363-6647-4795-9b02-88433acecfd9",
+          "f138cb87-4f29-4112-b110-fe78dc6e5a85",
+          "9cc793ba-2128-4cc0-9e5a-a7f4119ac09e",
           "dcd93be0-c4bb-4564-903a-3557b0b68990",
-          "5952e385-42a5-4603-9be9-64b76f15ef48",
-          "15a27fa5-0bfa-44ef-bcb1-2c3703f2e978",
-          "4dd7b43b-6c32-41d7-9563-d180260183e6",
-          "b4b27aa3-2de9-4c56-a91c-49936c62e697",
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6",
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
-          "c3cffbbb-b41a-4f59-b6af-e1a09a962851",
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
-          "f43dc752-4efb-47fe-be5d-76096a86ab2a",
+          "20152a0a-24b8-467d-8fa6-fa97a9fc526e",
+          "a4e51b8f-8647-4b64-b84e-dfbb4ac11b0e",
+          "9c4ffb8f-3e9f-4786-986e-d7374c36376a",
           "9f29bb18-5ba0-455f-bb21-4e69912660e8",
-          "552902be-02b1-40ca-8475-982bbdb75ed7",
-          "8612600c-cad3-41bf-99b2-924a9096f99d",
-          "e545d332-bfa7-42f0-ac86-79d310500b6a"
+          "406587e5-6bbb-4865-a568-5fe03a4fc8b6",
+          "6c0cf86e-adf2-40fc-96af-363b666ca947",
+          "c4df0335-7746-4f63-8624-b41418fb5d32",
+          "03ad98d5-b448-4346-baf4-4a862840ee8b",
+          "02709076-bdbf-404c-95b6-e0f71ca4dcad",
+          "afed4498-af11-462f-900b-4ae5f3c35016",
+          "0dc6dda4-6959-4595-8d8a-f45b4a9795d5",
+          "3678b284-9ec4-4121-920e-1761ba9271b8",
+          "0b01e2d1-97b3-45f9-8e31-1549eb9aeb25"
         ],
         "settings": {
         }
@@ -2449,27 +2416,8 @@
               "lb_cl": "#00badb",
               "pos_sub": "bottom",
               "wid": "full",
-              "cus_wid": 1100,
-              "id": 3,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
-          "cf2a633d-604b-4639-bf71-29a2353b4902": {
-            "type": "mega",
-            "settings": {
-              "title": "Solitaries",
-              "url": "shopify:\/\/collections\/solitaire",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "full",
               "cus_wid": 1200,
-              "id": 4,
+              "id": 3,
               "r_s_h_item": "20",
               "r_s_v_item": "30"
             }
@@ -2477,8 +2425,8 @@
           "72665295-f628-4eb7-97e5-af70f727af31": {
             "type": "mega",
             "settings": {
-              "title": "Other Jewellery",
-              "url": "",
+              "title": "Necklaces & Pendant",
+              "url": "shopify:\/\/collections\/necklace",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2487,9 +2435,47 @@
               "lb_cl": "#00badb",
               "pos_sub": "bottom",
               "wid": "full",
-              "cus_wid": 1200,
-              "id": 5,
+              "cus_wid": 1100,
+              "id": 4,
               "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          },
+          "6deb1ad0-9313-47e5-9221-4921de9a9fc1": {
+            "type": "mega",
+            "settings": {
+              "title": "Silver Jewellery",
+              "url": "shopify:\/\/collections\/silver-jewellery",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00badb",
+              "pos_sub": "bottom",
+              "wid": "full",
+              "cus_wid": 950,
+              "id": 5,
+              "r_s_h_item": "30",
+              "r_s_v_item": "30"
+            }
+          },
+          "ea500cbb-381a-4776-baf6-99575ec010ac": {
+            "type": "mega",
+            "settings": {
+              "title": "Shop All",
+              "url": "shopify:\/\/collections",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00badb",
+              "pos_sub": "bottom",
+              "wid": "full",
+              "cus_wid": 1100,
+              "id": 6,
+              "r_s_h_item": "30",
               "r_s_v_item": "30"
             }
           }
@@ -2499,8 +2485,9 @@
           "header-bottom-0",
           "header-bottom-1",
           "8c4f635a-9f14-4414-bdaf-568dd96e511c",
-          "cf2a633d-604b-4639-bf71-29a2353b4902",
-          "72665295-f628-4eb7-97e5-af70f727af31"
+          "72665295-f628-4eb7-97e5-af70f727af31",
+          "6deb1ad0-9313-47e5-9221-4921de9a9fc1",
+          "ea500cbb-381a-4776-baf6-99575ec010ac"
         ],
         "settings": {
           "full_header": false,
@@ -2535,7 +2522,7 @@
           "opnavtr": 40,
           "clnavtr": "#ffffff",
           "clnavtr_hover": "#ffffff",
-          "source": "2",
+          "source": "3",
           "txt": "<p>Welcome to our store!<\/p>",
           "fm_nav": "1",
           "fs_nav": 14,
