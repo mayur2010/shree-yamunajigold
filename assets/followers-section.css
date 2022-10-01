@@ -58,6 +58,6 @@
     padding: 10px 20px !important;
   }
 }
-#followers .fcontainer .fcard i .pinlogo {
-  color: #e00122;
+.pinlogo {
+  color: #e00122 !important;
 }
