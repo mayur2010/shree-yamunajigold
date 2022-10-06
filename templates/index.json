@@ -1991,6 +1991,92 @@
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
+    },
+    "6ec93a50-4c70-49cb-b69e-4b49c905d3fc": {
+      "type": "image-gallery",
+      "blocks": {
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-0": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "link": ""
+          }
+        },
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-1": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "link": ""
+          }
+        },
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-2": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "link": ""
+          }
+        },
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-3": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-0",
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-1",
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-2",
+        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Customer reviews",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 8,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
     }
   },
   "order": [
@@ -2010,6 +2096,7 @@
     "1662126291437a4222",
     "1661939333a62bb224",
     "16619340711a3aa5e4",
-    "16639249027e278871"
+    "16639249027e278871",
+    "6ec93a50-4c70-49cb-b69e-4b49c905d3fc"
   ]
 }
