@@ -38,7 +38,7 @@
   margin: 5px;
 }
 #followers .fcontainer .fcard p.label {
-  margin: -50px;
+  margin: -10px;
 }
 @media screen and (max-width: 600px) {
   body {
