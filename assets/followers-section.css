@@ -51,7 +51,8 @@
     padding: 0px 20px;
   }
   #followers .fcontainer .fcard{
-   
+    display:flex;
+    flex-direction: row;
   }
   #followers{
     padding: 10px 20px !important;
