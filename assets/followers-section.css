@@ -35,7 +35,7 @@
 }
 #followers .fcontainer .fcard p.counter {
   font-size: 60px;
-  margin: 0px;
+  margin: -500px;
 }
 #followers .fcontainer .fcard p.label {
   margin: 5px;
