@@ -1360,6 +1360,7 @@
     },
     "6ec93a50-4c70-49cb-b69e-4b49c905d3fc": {
       "type": "image-gallery",
+      "disabled": true,
       "blocks": {
         "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-0": {
           "type": "image_item",
