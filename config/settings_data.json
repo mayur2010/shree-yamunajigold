@@ -1417,6 +1417,18 @@
             "type": "cur",
             "settings": {
             }
+          },
+          "927b4329-f0d8-4f24-b663-e9cd71d1c195": {
+            "type": "menu",
+            "settings": {
+              "title": "Rings 2",
+              "url": "",
+              "open_link": "_self",
+              "menu": "rings",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -1428,7 +1440,8 @@
           "mb_nav-3",
           "mb_nav-7",
           "mb_nav-8",
-          "mb_nav-9"
+          "mb_nav-9",
+          "927b4329-f0d8-4f24-b663-e9cd71d1c195"
         ],
         "settings": {
         }
