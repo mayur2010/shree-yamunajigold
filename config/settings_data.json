@@ -1367,10 +1367,10 @@
           "25fa7ecf-2db0-4747-b093-a1299099917e": {
             "type": "menu",
             "settings": {
-              "title": "New Arrivals",
+              "title": "Bracelets & Bangles",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "bracelet",
               "icon": "",
               "lb": "",
               "lb_cl": ""
