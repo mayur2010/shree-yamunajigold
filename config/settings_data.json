@@ -1340,25 +1340,25 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-1": {
+          "927b4329-f0d8-4f24-b663-e9cd71d1c195": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections\/women",
+              "title": "Rings",
+              "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "rings",
               "icon": "",
               "lb": "",
               "lb_cl": ""
             }
           },
-          "mb_nav-2": {
+          "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Rings",
-              "url": "shopify:\/\/collections\/rings",
+              "title": "Earrings",
+              "url": "shopify:\/\/collections\/women",
               "open_link": "_self",
-              "menu": "",
+              "menu": "earrings",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1417,31 +1417,18 @@
             "type": "cur",
             "settings": {
             }
-          },
-          "927b4329-f0d8-4f24-b663-e9cd71d1c195": {
-            "type": "menu",
-            "settings": {
-              "title": "Rings 2",
-              "url": "",
-              "open_link": "_self",
-              "menu": "rings",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
           }
         },
         "block_order": [
           "mb_nav-0",
+          "927b4329-f0d8-4f24-b663-e9cd71d1c195",
           "mb_nav-1",
-          "mb_nav-2",
           "25fa7ecf-2db0-4747-b093-a1299099917e",
           "58800ed8-befe-449a-b8f8-ea86620bef6f",
           "mb_nav-3",
           "mb_nav-7",
           "mb_nav-8",
-          "mb_nav-9",
-          "927b4329-f0d8-4f24-b663-e9cd71d1c195"
+          "mb_nav-9"
         ],
         "settings": {
         }
