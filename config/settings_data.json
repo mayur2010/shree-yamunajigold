@@ -979,8 +979,8 @@
         "type": "back_top",
         "settings": {
           "enable_backtop": true,
-          "enable_hidden_mobile": false,
-          "backtop_des": "1"
+          "enable_hidden_mobile": true,
+          "backtop_des": "2"
         }
       },
       "mega-menu": {
