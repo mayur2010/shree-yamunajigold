@@ -1379,7 +1379,7 @@
           "58800ed8-befe-449a-b8f8-ea86620bef6f": {
             "type": "menu",
             "settings": {
-              "title": "Necklaces & pendant",
+              "title": "Necklaces",
               "url": "",
               "open_link": "_self",
               "menu": "necklaces-1",
@@ -1416,6 +1416,30 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "6b162aa9-3364-4ca9-8cf5-bed9e8c3cbac": {
+            "type": "menu",
+            "settings": {
+              "title": "Bangles",
+              "url": "",
+              "open_link": "_self",
+              "menu": "bangles",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "d8790124-4125-4ccf-9092-7fe609e2577d": {
+            "type": "menu",
+            "settings": {
+              "title": "Pandant",
+              "url": "",
+              "open_link": "_self",
+              "menu": "pendents",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -1426,7 +1450,9 @@
           "58800ed8-befe-449a-b8f8-ea86620bef6f",
           "mb_nav-9",
           "79803ae4-232d-45e4-b086-25aa009c977b",
-          "c76877f9-4c34-445b-8787-7a77ba6c510d"
+          "c76877f9-4c34-445b-8787-7a77ba6c510d",
+          "6b162aa9-3364-4ca9-8cf5-bed9e8c3cbac",
+          "d8790124-4125-4ccf-9092-7fe609e2577d"
         ],
         "settings": {
         }
