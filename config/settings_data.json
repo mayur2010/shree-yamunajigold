@@ -1355,8 +1355,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/products\/analogue-resin-strap",
+              "title": "Rings",
+              "url": "shopify:\/\/collections\/rings",
               "open_link": "_self",
               "menu": "",
               "icon": "",
