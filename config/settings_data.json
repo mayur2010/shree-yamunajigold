@@ -34,6 +34,7 @@
     "use_new_badge": false,
     "price_varies_style": "2",
     "enable_quickview": false,
+    "enable_atc": false,
     "show_qty": true,
     "enable_pr_color": true,
     "swatch_color_style": "1",
