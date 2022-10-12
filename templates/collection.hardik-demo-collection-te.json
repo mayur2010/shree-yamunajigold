@@ -274,7 +274,7 @@
         "limit": 12,
         "enable_listing": true,
         "enable_listing_default": false,
-        "col_dk": "4",
+        "col_dk": "3",
         "col_tb": "2",
         "col_mb": "2",
         "space_h_item": "30",
