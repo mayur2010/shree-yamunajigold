@@ -1707,7 +1707,7 @@
         "pd": "",
         "mg_mb": ",,50px,",
         "pd_mb": "",
-        "use_cus_css": true,
+        "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}\n@media (max-width:768px) {\n.SectionID {\n     display:none;\n}\n}"
       }
     },
