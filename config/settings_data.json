@@ -62,7 +62,7 @@
     "notify_currency": true,
     "hover_currency": false,
     "custom_css": true,
-    "global_css": ".t4s-pr-style1 .t4s-product-btns{\ndisplay: none;\n}\n#followers .fcontainer{\nwidth: 50%;\n}",
+    "global_css": ".t4s-pr-style1 .t4s-product-btns{\ndisplay: none;\n}\n#followers .fcontainer{\nwidth: 50%;\n}\n.t4s-pr__notify-stock.t4s-btn-color-primary, .t4s-payment-button.t4s-btn-color-primary .shopify-payment-button__button--unbranded{\nbackground-color: #ab7a65;\n}",
     "tablet_mobile_css": "",
     "mobile_css": "#followers .fcontainer{\nwidth: 100%;\n}\n#followers .fcontainer .fcard p.label{\nmargin: -20px 10px;\n}\n.promise-section .cards{\npadding: 0px 15px;\n}",
     "share_tumblr": true,
