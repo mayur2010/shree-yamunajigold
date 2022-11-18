@@ -363,7 +363,7 @@
           "text_fs": 14,
           "text_fw": 400,
           "heading_cl": "#222222",
-          "text_cl": "#444444",
+          "text_cl": "#000000",
           "link_cl": "#444444",
           "link_hover_cl": "#de9e82",
           "border_cl": "#e6e6e6",
