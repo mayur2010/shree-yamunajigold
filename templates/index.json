@@ -5,6 +5,7 @@
       "blocks": {
         "164602873867eb3815-0": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-09-05_at_11.09.02_AM.jpg",
             "image_position": "8",
