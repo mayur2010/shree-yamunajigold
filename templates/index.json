@@ -474,7 +474,7 @@
         "1646035040fee424aa-0": {
           "type": "collection_item",
           "settings": {
-            "collection": "women",
+            "collection": "",
             "image": "shopify:\/\/shop_images\/sale.png",
             "collection_title": "",
             "collection_link": ""
@@ -483,7 +483,7 @@
         "1646035040fee424aa-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "accessories",
+            "collection": "mangalsutra",
             "image": "shopify:\/\/shop_images\/mangalsutra2.png",
             "collection_title": "",
             "collection_link": ""
