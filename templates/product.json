@@ -47,7 +47,7 @@
             "enable_wishlist": true,
             "enable_compare": false,
             "btn_atc_full": true,
-            "pr_btn_round": 5,
+            "pr_btn_round": 2,
             "ani": "none",
             "time": 6,
             "btn_txt": "3",
@@ -208,7 +208,7 @@
         "product_list": [
 
         ],
-        "sticky_mode": "2",
+        "sticky_mode": "1",
         "sticky_show": "2",
         "ani": "none",
         "time": 6
@@ -220,9 +220,9 @@
         "16617616687bec763f-0": {
           "type": "quote",
           "settings": {
-            "image_avata": "shopify:\/\/shop_images\/6693eaec6a6042c79692cdd56447d85b.png",
-            "content": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "title": "Author's name",
+            "image_avata": "shopify:\/\/shop_images\/WhatsApp_Image_2023-01-10_at_12.53.44_PM_1.jpg",
+            "content": "<p>This was a custom order for my wife and they delivered excellet quality and on time! great communication and service provided. <\/p>",
+            "title": "Akash Joshi",
             "pos": "",
             "rating": 5
           }
@@ -267,7 +267,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Featured Reviews",
+        "top_heading": "Recent Reviews",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -505,6 +505,244 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "1cc8c7d6-c23d-495d-b63b-1739a8db629b": {
+      "type": "image-gallery",
+      "disabled": true,
+      "blocks": {
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-0": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/r1_c2bed56a-d80c-424a-a37b-ed7011f2c116.png",
+            "link": ""
+          }
+        },
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-1": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mini_DSC05933.jpg",
+            "link": ""
+          }
+        },
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-2": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/r2_a1c8388b-43ee-424a-b528-d944c86531fe.png",
+            "link": ""
+          }
+        },
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-3": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "9b182377-44f7-40e2-ab52-8e8b67df7fa1": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "5a337606-7085-47e8-91e9-7ca7d652d8e6": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "6a53009d-ff0f-4ea6-be04-32425fee4846": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-0",
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-1",
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-2",
+        "template--16418931081450__1cc8c7d6-c23d-495d-b63b-1739a8db629b-1672989502b6e6401f-3",
+        "9b182377-44f7-40e2-ab52-8e8b67df7fa1",
+        "5a337606-7085-47e8-91e9-7ca7d652d8e6",
+        "6a53009d-ff0f-4ea6-be04-32425fee4846"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Gallery",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "3",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "bb6d01f9-8c17-40bf-a463-f48b9ff3f472": {
+      "type": "feature_columns",
+      "disabled": true,
+      "blocks": {
+        "template--16418931081450__bb6d01f9-8c17-40bf-a463-f48b9ff3f472-16734157468a4fa577-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/product_footer_categories.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "template--16418931081450__bb6d01f9-8c17-40bf-a463-f48b9ff3f472-16734157468a4fa577-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/product_footer_categories.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "template--16418931081450__bb6d01f9-8c17-40bf-a463-f48b9ff3f472-16734157468a4fa577-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/product_footer_categories.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/rings",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "83f80489-2ec7-425e-8ebf-a1117e5c726c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "template--16418931081450__bb6d01f9-8c17-40bf-a463-f48b9ff3f472-16734157468a4fa577-0",
+        "template--16418931081450__bb6d01f9-8c17-40bf-a463-f48b9ff3f472-16734157468a4fa577-1",
+        "template--16418931081450__bb6d01f9-8c17-40bf-a463-f48b9ff3f472-16734157468a4fa577-2",
+        "83f80489-2ec7-425e-8ebf-a1117e5c726c"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
     }
   },
   "order": [
@@ -513,6 +751,8 @@
     "16617616688c6a7d80",
     "product-recommendations",
     "sidebar",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "1cc8c7d6-c23d-495d-b63b-1739a8db629b",
+    "bb6d01f9-8c17-40bf-a463-f48b9ff3f472"
   ]
 }
