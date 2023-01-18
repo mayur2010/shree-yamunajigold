@@ -382,6 +382,7 @@
         },
         "09c210f3-cf5d-40ec-9299-4e4267f3d398": {
           "type": "image_parent",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/rect8323.png",
             "image_position": "8",
@@ -471,7 +472,7 @@
     "82a970ba-4640-4dd0-bc9c-92153a8dab6c": {
       "type": "custom-html",
       "settings": {
-        "code": "<br>",
+        "code": "",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
