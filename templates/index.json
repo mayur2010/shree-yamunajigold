@@ -537,12 +537,66 @@
             "btn_cl": "dark",
             "button_effect": "fade"
           }
+        },
+        "290cf240-8f5b-4984-9b52-64d2bf96d355": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/a71a05dd7f884d2fae06bfa57666cd9f.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "478e35e9-8074-44ec-bf03-ec305b9e6980": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/5124d7376d4745a48100f3761def62d9.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "e1bc7829-2269-48f6-805a-8036cfbeb677": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/6398dc4448f34045b88cf070c695ce69.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
         }
       },
       "block_order": [
         "template--16418930950378__60458cb8-0e71-43cb-a1d3-0098343d7698-1674041652b0aeb511-0",
         "template--16418930950378__60458cb8-0e71-43cb-a1d3-0098343d7698-1674041652b0aeb511-1",
-        "template--16418930950378__60458cb8-0e71-43cb-a1d3-0098343d7698-1674041652b0aeb511-2"
+        "template--16418930950378__60458cb8-0e71-43cb-a1d3-0098343d7698-1674041652b0aeb511-2",
+        "290cf240-8f5b-4984-9b52-64d2bf96d355",
+        "478e35e9-8074-44ec-bf03-ec305b9e6980",
+        "e1bc7829-2269-48f6-805a-8036cfbeb677"
       ],
       "settings": {
         "design_heading": "1",
