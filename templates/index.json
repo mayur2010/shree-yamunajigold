@@ -1463,93 +1463,6 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
-    "6ec93a50-4c70-49cb-b69e-4b49c905d3fc": {
-      "type": "image-gallery",
-      "disabled": true,
-      "blocks": {
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-0": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/r1.png",
-            "link": ""
-          }
-        },
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-1": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/r2.png",
-            "link": ""
-          }
-        },
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-2": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/r3.png",
-            "link": ""
-          }
-        },
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-3": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/r4.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-0",
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-1",
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-2",
-        "template--16418930950378__6ec93a50-4c70-49cb-b69e-4b49c905d3fc-166505009498f4ac6b-3"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Customer reviews",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "layout_des": "1",
-        "click_image": "data-t4s-gallery",
-        "nav_thumbs": true,
-        "open_link": "_blank",
-        "item_rd": 8,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_item": "30",
-        "space_item_mb": "10",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": true,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": false,
-        "dots_space": 10,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
-      }
-    },
     "16570124526923496a": {
       "type": "testimonials",
       "blocks": {
@@ -2208,7 +2121,6 @@
     "1661690310126ddb0d",
     "1661690219c4085759",
     "16460362229768af39",
-    "6ec93a50-4c70-49cb-b69e-4b49c905d3fc",
     "16570124526923496a",
     "1646209857bf69e76a",
     "1662383432e7b35649",
