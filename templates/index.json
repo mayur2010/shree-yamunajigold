@@ -620,7 +620,7 @@
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
+        "space_v_item_mb": "0",
         "col_dk": "3",
         "col_tb": "2",
         "col_mb": "2",
@@ -653,6 +653,7 @@
     },
     "16570856070b578e5a": {
       "type": "banner",
+      "disabled": true,
       "blocks": {
         "16570856067ae3e25a-0": {
           "type": "b_item",
