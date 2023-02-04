@@ -15,6 +15,7 @@
 .t4s-sticky-atc.is--shown {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+  display: none;
 }
 .t4s-sticky-atc__product,
 .t4s-sticky-atc__btns {
