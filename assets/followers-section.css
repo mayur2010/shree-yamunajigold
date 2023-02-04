@@ -47,6 +47,10 @@
   #followers .fcard {
     padding: 0px 10px;
   }
+  #followers .fcontainer .fcard i {
+    color: #333;
+    font-size: 40px;
+}
 }
 .pinlogo {
   color: #e00122 !important;
