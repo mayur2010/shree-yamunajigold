@@ -60,14 +60,14 @@
 }
 }
 @media screen and (max-width: 480px) {
+    #followers .fcard {
+    padding: 0 5px;
+}
   #followers .fcontainer .fcard i {
     font-size: 35px;
 }
   #followers .fcontainer .fcard p.counter {
     font-size: 30px;
-}
-  #followers .fcard {
-    padding: 0 5px;
 }
   #followers .fcontainer .fcard p.label {
     font-size: 12px;
