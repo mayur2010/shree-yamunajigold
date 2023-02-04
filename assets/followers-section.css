@@ -55,6 +55,10 @@
     font-size: 40px;
     margin: 10px;
 }
+  #followers .fcontainer .fcard p.label {
+    font-size: 14px;
+}
+
 }
 .pinlogo {
   color: #e00122 !important;
