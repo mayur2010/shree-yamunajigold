@@ -536,8 +536,8 @@ button.t4s-product-form__submit[disabled="disabled"]{
 }
 .t4s-pr__notify-stock.t4s-btn-color-primary,
 .t4s-payment-button.t4s-btn-color-primary .shopify-payment-button__button--unbranded{
-  color: var(--t4s-light-color)!important;
-  background-color: var(--accent-color);
+  color: var(--t4s-light-color);
+  background-color: var(--accent-color) !important;
 }
 .t4s-pr__notify-stock.t4s-btn-color-custom1,
 .t4s-pr__notify-stock.t4s-btn-color-custom2,
