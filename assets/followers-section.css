@@ -54,9 +54,6 @@
     display:flex;
     flex-direction: row;
   }
-  #followers{
-    padding: 10px 20px !important;
-  }
 }
 .pinlogo {
   color: #e00122 !important;
