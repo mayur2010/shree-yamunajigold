@@ -74,7 +74,8 @@ endif -%}
               {%- if get_color contains name_downcase -%}
                 
                 <div data-swatch-option data-id="{{ forloop.index0 }}" class="t4s-swatch__option is-t4s-style__color is-t4s-name__{{option_name | handle}} {% cycle 'is--first-color', '', '' %}">
-                  <h4 class="t4s-swatch__title"><span>{{option_name}}: <span data-current-value class="t4s-swatch__current">{{selected_value | default:choose_an_option }}</span></span>{% if name_sizeg == name_downcase %}{{html_sizeg}}{% endif %}</h4>
+                  <h4 class="t4s-swatch__title"><span>{{option_name}}: <span data-current-value class="t4s-swatch__current">{% if option.value == 'pink' %}<span>Rose gold</span>{% elsif option.value == 'grey' %} <span>White gold</span>{% else %}<span>Yellow gold</span>{% endif %}
+</span></span>{% if name_sizeg == name_downcase %}{{html_sizeg}}{% endif %}</h4>
                   <div class="t4s-swatch__list">
                     {%- if color_mode != 'dropdown' -%}
                       {%- for value in option.values -%}
