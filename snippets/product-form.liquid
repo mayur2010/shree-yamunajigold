@@ -104,8 +104,6 @@ endif -%}
 
                 <div data-swatch-option data-id="{{ forloop.index0 }}" class="t4s-swatch__option is-t4s-name__{{option_name | handle}}">
                   <h4 class="t4s-swatch__title"><span>{{option_name}}: <span data-current-value class="t4s-swatch__current">{% if option.value == 'pink' %}<span>Rose gold</span>{% elsif option.value == 'grey' %} <span>White gold</span>{% else %}<span>Yellow gold</span>{% endif %}
-
-
 </span></span>{% if name_sizeg == name_downcase %}{{html_sizeg}}{% endif %}</h4>
                   <div class="t4s-swatch__list">
                     {%- if selector_mode != 'dropdown' -%}
