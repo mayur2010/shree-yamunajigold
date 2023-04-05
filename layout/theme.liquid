@@ -51,15 +51,6 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     {%- render 'head_assets',t_name:t_name,isRTL:isRTL -%}
 
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NTRE3J27XK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NTRE3J27XK');
-</script>
 
     <meta name="p:domain_verify" content="bd3515933f73fe5e3f72221340e64a5a"/>
   <meta name="google-site-verification" content="RJildnWfJaoaG1zdbmVbm0WS4HOWyMUIjTIWDuIjGIg" />
@@ -73,6 +64,10 @@ t4sp-theme t4s-wrapper__{{settings.general_layout}} rtl_{{isRTL}} swatch_color_s
     })(window, document, "clarity", "script", "f8eusz2iql");
 </script>
 
+    
+<script>
+    window.dataLayer = window.dataLayer || [];
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -122,6 +117,14 @@ pintrk('page');
 </head>
 
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | img_url: '1x1' }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>
+  
+    
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8J6BJP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    
     <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
     <div class="t4s-close-overlay t4s-op-0"></div>
 
