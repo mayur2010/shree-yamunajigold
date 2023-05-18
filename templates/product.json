@@ -225,21 +225,6 @@
         "time": 6
       }
     },
-    "1683632493480204ee": {
-      "type": "apps",
-      "blocks": {
-        "c8a41f8a-babc-4973-a9c6-9af5cdbc0a03": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "c8a41f8a-babc-4973-a9c6-9af5cdbc0a03"
-      ],
-      "settings": {
-      }
-    },
     "16617616688c6a7d80": {
       "type": "testimonials",
       "blocks": {
@@ -338,6 +323,26 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
       }
     },
     "product-recommendations": {
@@ -531,35 +536,15 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
-    },
-    "loox-product-reviews-app-section": {
-      "type": "apps",
-      "blocks": {
-        "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "hide_thumbnails": false,
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "loox-product-reviews"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
-    "1683632493480204ee",
     "16617616688c6a7d80",
+    "loox-product-reviews-app-section",
     "product-recommendations",
     "sidebar",
-    "recently-viewed-products",
-    "loox-product-reviews-app-section"
+    "recently-viewed-products"
   ]
 }
