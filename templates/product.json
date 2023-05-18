@@ -315,6 +315,21 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "17b06c02-f4fc-42a8-809f-e88b7ac7705f": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<br><br><br>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
     "loox-product-reviews-app-section": {
       "type": "apps",
       "blocks": {
@@ -331,6 +346,9 @@
       },
       "block_order": [
         "loox-product-reviews"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
       }
@@ -532,6 +550,7 @@
     "breadcrumb",
     "main",
     "16617616688c6a7d80",
+    "17b06c02-f4fc-42a8-809f-e88b7ac7705f",
     "loox-product-reviews-app-section",
     "product-recommendations",
     "sidebar",
