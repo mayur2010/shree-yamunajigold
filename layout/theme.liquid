@@ -104,6 +104,8 @@ pintrk('page');
 <!-- end Pinterest Tag -->
     
     {% render 'judgeme_core' %}
+
+	{{ shop.metafields.loox["global_html_head"] }}
 </head>
 
   <body class="template-{{ request.page_type | handle }} {{class_lazy}}"{% if body_img != blank %} data-bgset="{{ body_img | img_url: '1x1' }}" data-optimumx="1.5" data-sizes="auto"{% endif -%}>
@@ -136,5 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       </ul>
     {%- render 'render_bottom' -%}
-  </body>
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
 </html>
