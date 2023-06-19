@@ -1014,6 +1014,7 @@
           },
           "31b0751c-9378-4557-be28-99c34fadabad": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "For Gifting",
               "url": "",
@@ -1062,6 +1063,7 @@
           },
           "b3c09a9d-0ab6-468c-bd40-26cbc747d21e": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "For Gifting",
               "url": "",
@@ -1120,6 +1122,7 @@
           },
           "9cc793ba-2128-4cc0-9e5a-a7f4119ac09e": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "For Gifting",
               "url": "",
@@ -1217,7 +1220,7 @@
           "6c0cf86e-adf2-40fc-96af-363b666ca947": {
             "type": "link3",
             "settings": {
-              "tt_hd": "Silver Jewellery",
+              "tt_hd": "Other Jewellery",
               "url": "",
               "open_link": "_self",
               "menu": "silver-jewellery",
