@@ -559,7 +559,6 @@
         },
         "290cf240-8f5b-4984-9b52-64d2bf96d355": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/a71a05dd7f884d2fae06bfa57666cd9f.png",
@@ -625,7 +624,7 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "0",
-        "col_dk": "3",
+        "col_dk": "2",
         "col_tb": "2",
         "col_mb": "2",
         "loop": true,
