@@ -1079,6 +1079,7 @@
         "template--16418930950378__c75b3c48-0b1b-4631-a4ff-b4f41f403eb3-1689670641baa73b9b-0": {
           "type": "b_item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/raksha.jpg",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -1112,8 +1113,9 @@
         },
         "template--16418930950378__c75b3c48-0b1b-4631-a4ff-b4f41f403eb3-1689670641baa73b9b-1": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
-            "text": "LOOKBOOK 2022",
+            "text": "",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
@@ -1134,8 +1136,9 @@
         },
         "template--16418930950378__c75b3c48-0b1b-4631-a4ff-b4f41f403eb3-1689670641baa73b9b-2": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
-            "text": "MAKE LOVE THIS LOOK",
+            "text": "",
             "remove_br_tag": false,
             "fontf": "inherit",
             "text_cl": "#000000",
