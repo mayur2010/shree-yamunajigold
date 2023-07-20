@@ -1432,6 +1432,7 @@
           },
           "6b162aa9-3364-4ca9-8cf5-bed9e8c3cbac": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Bangles",
               "url": "",
